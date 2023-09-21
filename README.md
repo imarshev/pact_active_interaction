@@ -4,6 +4,8 @@
 
 This repository contains the solution for a test assignment where I was tasked with refactoring and correcting a Ruby on Rails application, focusing mainly on the integration with the `active_interaction` gem.
 
+The initial code and task description can be found in the `task.rb` file in the root of this repository. This file contains numerous syntactic and logical errors and serves as a baseline for the refactoring process.
+
 ## File Structure
 
 The repository is structured with the necessary Ruby on Rails directory hierarchy. Here is a breakdown of the key files and their respective functionalities:
