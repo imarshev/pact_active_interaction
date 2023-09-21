@@ -59,7 +59,7 @@ This repository doesn't contain a full-fledged Rails application but specific ke
 
 To create a new user, initialize a new `User::Create` interaction with the necessary parameters and call the `run` method to execute the interaction:
 
-\`\`\`ruby
+\\\ruby
 result = User::Create.run(
   name: 'John',
   surname: 'Doe',
@@ -72,10 +72,9 @@ result = User::Create.run(
   interests: [...],
   skills: [...]
 )
-
 if result.valid?
   # User created successfully
 else
   # Handle validation errors
 end
-\`\`\`
+\\\
